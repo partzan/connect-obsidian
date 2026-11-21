@@ -8,10 +8,12 @@ ChatGPT cannot reach Obsidian on your computer. This app runs [OpenAI's tunnel c
 
 ## Download
 
-Pre-built Windows binaries are **not** stored in git (the exe is large and embeds third-party tools). Get them from the [latest GitHub release](https://github.com/partzan/connect-obsidian/releases/latest):
+Pre-built files are in [`dist/`](dist/):
 
 - **ConnectObsidian.exe** — run this; it unpacks tunnel-client on first connect
 - **LICENSE**, **LICENSE.tunnel-client**, **NOTICE.tunnel-client** — keep these alongside the exe when you share it
+
+The same files are on the [latest GitHub release](https://github.com/partzan/connect-obsidian/releases/latest).
 
 ## Share a built app
 

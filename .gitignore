@@ -1,6 +1,11 @@
 bin/
-dist/
 vendor/
 *.user
-*.exe
 *.pdb
+
+# dist: track only the shipped app and its license bundle (ignore other build output)
+dist/*
+!dist/ConnectObsidian.exe
+!dist/LICENSE
+!dist/LICENSE.tunnel-client
+!dist/NOTICE.tunnel-client
